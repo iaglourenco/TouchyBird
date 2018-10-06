@@ -175,7 +175,7 @@ class Touchy extends ApplicationAdapter {
 
         batch.draw(background, 0, 0, deviceWidth, deviceHeight);
         variacao += Gdx.graphics.getDeltaTime() * 5;
-        if (variacao > 2) variacao = 0;
+        if (variacao > birds.length) variacao = 0;
         batch.draw(canoBaixo, xCanoLow, (deviceHeight/2) - canoBaixo.getHeight()- (espacoEntreCanos / 2)  + randSpace + yCanoLow);
         batch.draw(canoCima, xCanoHigh, (deviceHeight/2) + (espacoEntreCanos / 2)+ randSpace + yCanoHigh);
         batch.draw(birds[(int) variacao], xBird, yBird);
