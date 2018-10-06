@@ -25,7 +25,7 @@ import java.util.Random;
 class Touchy extends ApplicationAdapter {
 
     private SpriteBatch batch;
-    private final Texture[] birds= new Texture[3];
+    private final Texture[] birds= new Texture[4];
     private Texture background;
     private Texture canoCima,canoBaixo,gameOver;
     private BitmapFont fonte,message;
@@ -74,9 +74,12 @@ class Touchy extends ApplicationAdapter {
         background = new Texture("fundo.png");
         canoCima = new Texture("cano_topo_maior.png");
         canoBaixo = new Texture("cano_baixo_maior.png");
-        birds[0]=new Texture("passaro1.png");
-        birds[1]=new Texture("passaro2.png");
-        birds[2]=new Texture("passaro3.png");
+        birds[0]=new Texture("frame-1.png");
+        birds[1]=new Texture("frame-2.png");
+        birds[2]=new Texture("frame-3.png");
+        birds[3]=new Texture("frame-4.png");
+
+
         gameOver = new Texture("game_over.png");
 
         birdCollision = new Circle();
