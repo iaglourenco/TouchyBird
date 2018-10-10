@@ -5,4 +5,5 @@ Todo conhecimento aqui usado foi adquirido pelo curso Androd Development por Jam
 Baixe as releases no link abaixo.
 
 # Releases
-github.com/iaglourenco/TouchyBird/releases
+
+https://github.com/iaglourenco/TouchyBird/releases
